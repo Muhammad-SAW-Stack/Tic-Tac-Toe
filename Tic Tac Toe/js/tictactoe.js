@@ -86,11 +86,11 @@ function checkWinConditions() {
     // X 0, 4, 8 condition.
     else if (arrayIncludes('0X', '4X', '8X')) { drawWinLine(100, 100, 520, 520); }
     // O 0, 1, 2 condition.
-    else if (arrayIncludes('0O', '1O', '2O')) { drawWinLine(50, 100, 550, 304); }
+    else if (arrayIncludes('0O', '1O', '2O')) { drawWinLine(50, 100, 558, 100); }
     // O 3, 4, S condition.
     else if (arrayIncludes('3O', '4O', '5O')) { drawWinLine(50, 304, 558, 304); }
     // O 6, 7, 8 condition.
-    else if (arrayIncludes('6O', '7O', '8O')) { drawWinLine(50, 508, 550, 508); }
+    else if (arrayIncludes('6O', '7O', '8O')) { drawWinLine(50, 508, 558, 508); }
     // O 0, 3, 6 condition.
     else if (arrayIncludes('0O', '3O', '6O')) { drawWinLine(100, 50, 100, 558); }
     // O l, 4, 7 condition.
