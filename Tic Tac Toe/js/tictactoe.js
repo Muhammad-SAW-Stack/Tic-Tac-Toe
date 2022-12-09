@@ -144,6 +144,8 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     //This line accesses our html canvas element.
     const canvas = document.getElementById('win-lines');
     //This line gives up access to methods and properties to use on canvas.
+    const c = canvas.getContext ('2d');
+    //This line indicates where the start of a lines x axis is
     let x1 = coordX1,
         //This line indicates where the start os a lines y axis is.
         y1 = coordY1,
