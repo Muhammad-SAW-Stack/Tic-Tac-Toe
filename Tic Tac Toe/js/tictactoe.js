@@ -159,7 +159,7 @@ function drawWinLine(coordX1, coordY1, coordX2, coordY2) {
     //This function interacts with with the canva 
     function animateLineDrawing() {
         //This variable creates the loop for when the games ends it restarts.
-        const animateLoop = requestAnimationFrame(animateLineDrawing);
+        const animationLoop = requestAnimationFrame(animateLineDrawing);
         //This method clears content from the last loop iteration.
         c.clearRect(0, 0, 608, 608);
         //This method starts a new path
